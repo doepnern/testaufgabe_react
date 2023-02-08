@@ -3,7 +3,6 @@ import {
   BaseNodeInfo,
   createLeaf,
   createNode,
-  NodeInfo,
 } from "../../../model/Node";
 
 export type TreeViewerState = {

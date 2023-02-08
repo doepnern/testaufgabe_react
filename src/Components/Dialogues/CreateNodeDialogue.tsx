@@ -31,6 +31,7 @@ export function CreateNodeDialogue({
             name="name"
             id="name"
             required
+            autoFocus
           />
         </div>
         {error && <p className={styles.error}>{error}</p>}

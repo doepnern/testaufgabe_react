@@ -39,6 +39,7 @@ export function CreateLeafDialogue({
             name="name"
             id="name"
             required
+            autoFocus
           />
         </div>
         <div className={styles.input_container}>

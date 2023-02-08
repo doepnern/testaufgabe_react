@@ -5,7 +5,7 @@ import { Dropdown } from "../Dropdown/Dropdown";
 import {
   useDisptachTreeViewerContext,
   useTreeViewerContext,
-} from "../TreeViewer/Context";
+} from "../TreeViewer/context/TreeViewerContext";
 import styles from "./options.style.module.css";
 
 export function LeafOptions({

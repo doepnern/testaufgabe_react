@@ -1,7 +1,7 @@
 import styles from "./styles.TreeViewer.module.css";
 import { Leaf } from "./Leaf";
 import { Node } from "./Node";
-import { useTreeViewerContext } from "./Context";
+import { useTreeViewerContext } from "./context/TreeViewerContext";
 import { isNode, NodeInfo, BaseNodeInfo } from "../../model/Node";
 
 export function TreeViewerInner() {

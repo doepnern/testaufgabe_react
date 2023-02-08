@@ -1,7 +1,10 @@
 import { FolderSvg } from "../../assets/FolderSvg";
 import { NodeInfo } from "../../model/Node";
-import { NodeOptions } from "../Options/NodeOptions";
-import { useDisptachTreeViewerContext, useTreeViewerContext } from "./Context";
+import { NodeOptions } from "../Options";
+import {
+  useDisptachTreeViewerContext,
+  useTreeViewerContext,
+} from "./context/TreeViewerContext";
 import styles from "./styles.TreeViewer.module.css";
 import { baseNodeMapping } from "./TreeViewer";
 

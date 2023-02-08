@@ -1,5 +1,10 @@
-import { BaseNodeId, createLeaf, createNode, isNode } from "../../model/Node";
-import { TreeViewerState } from "./State";
+import {
+  BaseNodeId,
+  createLeaf,
+  createNode,
+  isNode,
+} from "../../../model/Node";
+import { TreeViewerState } from "./initialState";
 
 export type TreeViewerActions =
   | {

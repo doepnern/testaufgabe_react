@@ -1,6 +1,6 @@
 import { createContext, ReactNode, useContext, useReducer } from "react";
-import { parseInitialState } from "./State";
-import exampleJson from "../../assets/example.json";
+import { parseInitialState } from "./initialState";
+import exampleJson from "../../../assets/example.json";
 import { TreeViewerActions, treeViewerReducer } from "./treeViewerReducer";
 
 const initialState = parseInitialState(exampleJson);

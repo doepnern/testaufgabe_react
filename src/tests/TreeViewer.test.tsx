@@ -1,6 +1,6 @@
 import { afterEach, beforeEach, describe, it, expect } from "vitest";
 import { render, screen, cleanup } from "@testing-library/react";
-import { click } from "@testing-library/user-event";
+import events from "@testing-library/user-event";
 import { TreeViewer } from "../Components";
 
 describe("App", () => {
@@ -20,7 +20,7 @@ describe("App", () => {
   });
   it("should display leaf level when clicked", async () => {
     const rootNode1 = screen.getByText("base1", { exact: false });
-    await click(rootNode1);
+    await events.click(rootNode1);
     const leafNodeLevel1 = ["leafNode"];
     screen.getByText(leafNodeLevel1[0], { exact: false });
   });
@@ -29,9 +29,9 @@ describe("App", () => {
     const leafContainer = leaf1.parentElement?.parentElement;
     const optionsButton = leafContainer?.querySelector("button");
     expect(optionsButton).not.toBeNull();
-    await click(optionsButton);
+    await events.click(optionsButton!);
     const deleteButton = screen.getByText("delete", { exact: false });
-    await click(deleteButton);
+    await events.click(deleteButton);
     expect(screen.queryByText("leafBase", { exact: false })).toBeNull();
   });
 });

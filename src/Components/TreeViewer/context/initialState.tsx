@@ -1,10 +1,10 @@
-import { v4 } from "uuid";
 import {
   BaseNodeId,
   BaseNodeInfo,
   createLeaf,
   createNode,
-} from "../../model/Node";
+  NodeInfo,
+} from "../../../model/Node";
 
 export type TreeViewerState = {
   nodeRecord: Record<BaseNodeId, BaseNodeInfo>;

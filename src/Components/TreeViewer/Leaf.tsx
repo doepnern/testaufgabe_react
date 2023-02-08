@@ -1,7 +1,7 @@
 import { FileSvg } from "../../assets/FileSvg";
 import { BaseNodeId, LeafInfo } from "../../model/Node";
-import { LeafOptions } from "../Options/LeafOptions";
-import { useTreeViewerContext } from "./Context";
+import { LeafOptions } from "../Options";
+import { useTreeViewerContext } from "./context/TreeViewerContext";
 import styles from "./styles.TreeViewer.module.css";
 
 export function Leaf({ id }: { id: BaseNodeId }) {

@@ -1,4 +1,4 @@
-import { TreeViewerContextProvider } from "./Context";
+import { TreeViewerContextProvider } from "./context/TreeViewerContext";
 import { TreeViewerInner } from "./TreeViewer";
 
 export function TreeViewer() {

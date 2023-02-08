@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import styles from "./styles.dropdown.module.css";
 
-//würde normalerweise eine library verwenden um overflow zu seiten zu verhindern und dynamisch dis beste position zu finden
+//würde normalerweise eine library verwenden um overflow zu den seiten zu verhindern und dynamisch dis beste position zu finden
 export function Dropdown({
   open,
   content,
@@ -11,7 +11,7 @@ export function Dropdown({
   content: React.ReactNode;
   close: () => void;
 }) {
-  //as long as Dropdown is open, add listener to close when something else is clicked
+  //um dropdown wieder zu schließen wenn irgendwo außerhalb geklickt wird
   useEffect(() => {
     if (!open) return;
     const clickAwayListener = (e: MouseEvent) => {

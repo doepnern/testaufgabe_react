@@ -46,6 +46,7 @@ export function parseInitialState(jsonIn: JsonType): TreeViewerState {
   };
 
   const rootNode = createNode({ level: 0, name: "root", parentId: "none" });
+  rootNode.id = "root";
   rootNode.children = parseLevel(jsonIn, 1, rootNode.id);
   const treeState: TreeViewerState = {
     nodeRecord: { ...nodeRecord, root: rootNode },

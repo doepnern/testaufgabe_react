@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  max-width: 400px;
+  background-color: rgb(255, 246, 246);
+  padding: 1.5rem 1.5rem;
+  box-sizing: border-box;
+  color: black;
+}
+
+.container h2 {
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.input_container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.input_container input[type="text"] {
+  font-size: inherit;
+  width: 50%;
+}
+
+.error {
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  outline: none;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(192, 192, 192);
+}
+
+.button_row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.cancel_button {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.cancel_button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 134, 134);
+}
+
+.submit_button {
+  background-color: #90e115;
+  border: 2px solid #90e115;
+}
+
+.submit_button:hover {
+  background-color: #92f004;
+  border: 2px solid #92f004;
+}

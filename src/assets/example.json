@@ -1,0 +1,9 @@
+{
+  "base1": {
+    "node1": { "leaf1": "hi", "node2": { "leaf2": "leeeef" } },
+    "node2": { "leaf3": "leeee3", "node4": { "leaf": "luuu" } },
+    "leafNode": "leas"
+  },
+  "leafBase": "lb",
+  "empty": {}
+}

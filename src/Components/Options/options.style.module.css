@@ -1,0 +1,46 @@
+.options_button {
+  --fill_color: black;
+  border: none;
+  outline: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  position: relative;
+}
+.night {
+  --fill_color: white;
+}
+
+.options_button:hover {
+  cursor: pointer;
+}
+
+.options_button:hover .options_svg g {
+  fill: gray;
+  stroke: gray;
+}
+
+.options_svg {
+  height: 100%;
+  width: auto;
+}
+
+.options_svg g {
+  fill: var(--fill_color);
+  stroke: var(--fill_color);
+  transition: all 0.1s ease-in-out;
+}
+
+.dropdown_button {
+  padding: 0.6em 1.2em;
+  background-color: rgb(212, 212, 212);
+  white-space: nowrap;
+}
+
+.dropdown_button:hover {
+  cursor: pointer;
+  background-color: rgb(206, 206, 206);
+}

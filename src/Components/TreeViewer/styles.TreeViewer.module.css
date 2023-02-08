@@ -1,0 +1,61 @@
+.node_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.base_node_display {
+  box-sizing: border-box;
+  width: 100%;
+  height: 4rem;
+  display: block;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+}
+
+.svg_container {
+  height: 80%;
+  width: auto;
+}
+
+.svg_container svg {
+  height: 100%;
+  width: auto;
+  fill: rgb(246, 246, 255);
+}
+
+.svg_container.dark_svg svg {
+  fill: rgb(51, 51, 51);
+}
+
+.leaf_node_display {
+  background-color: transparent;
+  color: rgb(240, 240, 240);
+  border: 3px solid rgb(90, 90, 90);
+}
+
+.leaf_left_container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.node_display {
+  border: none;
+  outline: none;
+  font-size: inherit;
+}
+
+.node_display:hover {
+  cursor: pointer;
+  background-color: azure;
+}
+
+.node_childContainer {
+  margin-left: 2rem;
+}

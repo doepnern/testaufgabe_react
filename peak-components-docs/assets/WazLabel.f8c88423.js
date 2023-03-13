@@ -1,1 +1,0 @@
-import{r as s,a as t,F as n}from"./index.bec5aa92.js";const f=s.exports.forwardRef(function({label:r,id:o},e){return r===void 0?t(n,{}):typeof r!="string"?r:r.length>0?t("label",{ref:e,htmlFor:o,children:r}):t(n,{})});export{f as W};

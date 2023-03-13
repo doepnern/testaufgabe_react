@@ -1,0 +1,59 @@
+{
+  "about": {
+    "homepage": "https://www.ladle.dev",
+    "github": "https://github.com/tajo/ladle",
+    "version": 1
+  },
+  "stories": {
+    "button--base": {
+      "name": "Base",
+      "levels": [
+        "Button"
+      ],
+      "locStart": 15,
+      "locEnd": 190,
+      "filePath": "src/Button/Button.stories.tsx",
+      "meta": {}
+    },
+    "virtual-list--base": {
+      "name": "Base",
+      "levels": [
+        "Virtual list"
+      ],
+      "locStart": 3,
+      "locEnd": 13,
+      "filePath": "src/VirtualList/VirtualList.stories.tsx",
+      "meta": {}
+    },
+    "checkbox-field--base": {
+      "name": "Base",
+      "levels": [
+        "Checkbox field"
+      ],
+      "locStart": 9,
+      "locEnd": 105,
+      "filePath": "src/Fields/CheckboxField/CheckboxField.stories.tsx",
+      "meta": {}
+    },
+    "select-field--base": {
+      "name": "Base",
+      "levels": [
+        "Select field"
+      ],
+      "locStart": 8,
+      "locEnd": 111,
+      "filePath": "src/Fields/SelectField/SelectField.stories.tsx",
+      "meta": {}
+    },
+    "text-input-field--base": {
+      "name": "Base",
+      "levels": [
+        "Text input field"
+      ],
+      "locStart": 8,
+      "locEnd": 107,
+      "filePath": "src/Fields/TextInputField/TextInputField.stories.tsx",
+      "meta": {}
+    }
+  }
+}
